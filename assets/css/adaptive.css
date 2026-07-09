@@ -1,0 +1,285 @@
+/* ==========================
+   АДАПТАЦИЯ ДЛЯ IPAD И ТЕЛЕФОНОВ
+========================== */
+
+
+/* Планшеты */
+
+@media (max-width: 1024px) {
+
+
+.container {
+    width: 92%;
+}
+
+
+.hero-content {
+
+    grid-template-columns: 1fr;
+    text-align:center;
+
+}
+
+
+.hero-text h1 {
+
+    font-size:42px;
+
+}
+
+
+.hero-buttons {
+
+    justify-content:center;
+
+}
+
+
+.features {
+
+    justify-content:center;
+
+}
+
+
+.cards {
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+.advantages {
+
+    grid-template-columns:1fr;
+
+}
+
+
+.gallery {
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+nav {
+
+    display:none;
+
+}
+
+}
+
+
+
+/* Телефоны */
+
+
+@media (max-width:600px) {
+
+
+.header-inner {
+
+    height:70px;
+
+}
+
+
+.logo {
+
+    font-size:26px;
+
+}
+
+
+.phone {
+
+    padding:10px 16px;
+    font-size:14px;
+
+}
+
+
+
+.hero {
+
+    padding-top:100px;
+
+}
+
+
+.hero-text h1 {
+
+    font-size:32px;
+
+}
+
+
+.hero-text p {
+
+    font-size:16px;
+
+}
+
+
+.hero-buttons {
+
+    flex-direction:column;
+
+}
+
+
+.btn,
+.btn-outline {
+
+    width:100%;
+    text-align:center;
+
+}
+
+
+
+.features {
+
+    flex-direction:column;
+    gap:20px;
+
+}
+
+
+
+.hero-form {
+
+    padding:25px;
+
+}
+
+
+
+h2 {
+
+    font-size:32px;
+
+}
+
+
+
+.cards {
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.card {
+
+    padding:25px;
+
+}
+
+
+
+.gallery {
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.gallery div {
+
+    height:220px;
+
+}
+
+
+
+.contacts {
+
+    padding:60px 0;
+
+}
+
+
+}
+.menu-button {
+
+display:none;
+
+background:none;
+
+border:none;
+
+font-size:30px;
+
+}
+
+
+
+@media(max-width:600px){
+
+
+.menu-button {
+
+display:block;
+
+color:#0f3d2e;
+
+}
+
+
+nav {
+
+position:absolute;
+
+top:70px;
+
+left:0;
+
+width:100%;
+
+background:white;
+
+flex-direction:column;
+
+align-items:center;
+
+padding:25px;
+
+display:none;
+
+}
+
+
+
+nav.active {
+
+display:flex;
+
+}
+
+}
+@media(max-width:1024px){
+
+.stats-grid {
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+
+@media(max-width:600px){
+
+.stats-grid {
+
+grid-template-columns:1fr;
+
+}
+
+}
